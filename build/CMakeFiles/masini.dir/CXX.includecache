@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/users/popac/desktop/TemaIEP/inc/Engine.hpp
+iostream
+-
+
+/mnt/c/users/popac/desktop/TemaIEP/inc/Golf.hpp
+Engine.hpp
+/mnt/c/users/popac/desktop/TemaIEP/inc/Engine.hpp
+iostream
+-
+
+/mnt/c/users/popac/desktop/TemaIEP/inc/GolfTDI.hpp
+Golf.hpp
+/mnt/c/users/popac/desktop/TemaIEP/inc/Golf.hpp
+iostream
+-
+
+/mnt/c/users/popac/desktop/TemaIEP/inc/GolfTSI.hpp
+Golf.hpp
+/mnt/c/users/popac/desktop/TemaIEP/inc/Golf.hpp
+iostream
+-
+
+/mnt/c/users/popac/desktop/TemaIEP/inc/config.hpp
+iostream
+-
+
+/mnt/c/users/popac/desktop/TemaIEP/src/main.cpp
+../inc/GolfTDI.hpp
+/mnt/c/users/popac/desktop/TemaIEP/inc/GolfTDI.hpp
+../inc/GolfTSI.hpp
+/mnt/c/users/popac/desktop/TemaIEP/inc/GolfTSI.hpp
+../inc/config.hpp
+/mnt/c/users/popac/desktop/TemaIEP/inc/config.hpp
+
