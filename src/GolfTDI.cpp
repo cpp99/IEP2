@@ -7,6 +7,11 @@ void GolfTDI::porneste(){
     std::cout << "Motorul " << eng->getName() << " face brbrbrbrbrbrbrbrbrbr " << std::endl;
 }
 
+GolfTDI::GolfTDI(const GolfTDI& g) : Golf(g)
+{
+    nrBujiiIncandescente = g.nrBujiiIncandescente;
+}
+
 GolfTDI& GolfTDI::operator=(const GolfTDI& g)
 {
     if(&g == this) return *this;

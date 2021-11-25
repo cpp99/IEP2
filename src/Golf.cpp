@@ -11,7 +11,12 @@ void Golf::porneste()
     std::cout << "Golf " << this->model << " cu motor de " << (this->capCil)/1000 <<" porneste ... ";
 }
 
-
+Golf::Golf(const Golf& g)
+{
+    eng = new Engine(*g.eng);
+    capCil = g.capCil;
+    model = g.model;
+}
 
 
 Golf& Golf::operator=(const Golf& g)

@@ -30,8 +30,7 @@ int main()
 
     std::cout << "\n\n\n";
 
-    GolfTDI golf10(1, 1, &e1, 1);
-    golf10=golf3;
+    GolfTDI golf10 = golf3;
     golf10=golf10;
     golf10.porneste();
     
