@@ -7,10 +7,13 @@ class Golf {
         Engine *eng;
         int model;
         double capCil;
-    public:
+        bool inService;
         Golf(const Golf& g);
         Golf& operator=(const Golf& g);
+    public:
         Golf();
         Golf(int mdl, double cap, Engine *e);
+        void lockCar();
+        void unlockCar();
         void porneste();
 };

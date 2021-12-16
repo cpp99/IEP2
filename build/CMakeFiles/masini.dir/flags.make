@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/users/popac/desktop/TemaIEP/inc 
+CXX_INCLUDES = -I/mnt/c/users/popac/desktop/temaiep/inc 
 

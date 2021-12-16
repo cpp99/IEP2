@@ -29,4 +29,6 @@ add_executable(${PROJECT_NAME}
                 src/Golf.cpp
                 src/GolfTDI.cpp
                 src/GolfTSI.cpp
-                src/main.cpp)
+                src/main.cpp
+                src/Passenger.cpp
+                src/Driver.cpp)

@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/users/popac/desktop/TemaIEP
+CMAKE_SOURCE_DIR = /mnt/c/users/popac/desktop/temaiep
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/users/popac/desktop/TemaIEP/build
+CMAKE_BINARY_DIR = /mnt/c/users/popac/desktop/temaiep/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/masini.dir/clean
 CMakeFiles/masini.dir/all:
 	$(MAKE) -f CMakeFiles/masini.dir/build.make CMakeFiles/masini.dir/depend
 	$(MAKE) -f CMakeFiles/masini.dir/build.make CMakeFiles/masini.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/users/popac/desktop/TemaIEP/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target masini"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/users/popac/desktop/temaiep/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target masini"
 .PHONY : CMakeFiles/masini.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/masini.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/users/popac/desktop/TemaIEP/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/users/popac/desktop/temaiep/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/masini.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/users/popac/desktop/TemaIEP/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/users/popac/desktop/temaiep/build/CMakeFiles 0
 .PHONY : CMakeFiles/masini.dir/rule
 
 # Convenience name for target.

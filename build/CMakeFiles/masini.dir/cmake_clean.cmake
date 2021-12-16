@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/masini.dir/src/Driver.cpp.o"
   "CMakeFiles/masini.dir/src/Engine.cpp.o"
   "CMakeFiles/masini.dir/src/Golf.cpp.o"
   "CMakeFiles/masini.dir/src/GolfTDI.cpp.o"
   "CMakeFiles/masini.dir/src/GolfTSI.cpp.o"
+  "CMakeFiles/masini.dir/src/Passenger.cpp.o"
   "CMakeFiles/masini.dir/src/main.cpp.o"
   "masini"
   "masini.pdb"

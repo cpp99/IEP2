@@ -2,13 +2,18 @@
 
 Golf::Golf(){}
 
-Golf::Golf(int mdl, double cap, Engine *e) : capCil(cap), model(mdl), eng(e){}
+Golf::Golf(int mdl, double cap, Engine *e) : capCil(cap), model(mdl), eng(e), inService(false){}
 
 
 
 void Golf::porneste()
 {
-    std::cout << "Golf " << this->model << " cu motor de " << (this->capCil)/1000 <<" porneste ... ";
+    if(!inService){
+        std::cout << "Golf " << this->model << " cu motor de " << (this->capCil)/1000 <<" porneste ...\n ";
+    }
+    else{
+        std::cout << "Golf " << this->model << " cu motor de " << (this->capCil)/1000 <<" e in service. Nu porneste :( \n";
+    }
 }
 
 Golf::Golf(const Golf& g)
@@ -24,13 +29,23 @@ Golf& Golf::operator=(const Golf& g)
     if(&g == this) {
         return *this;
     }
-    //std::cout << "1"<< std::endl;
     delete eng;
-    //std::cout << "2"<< std::endl;
     eng = new Engine(*g.eng);
 
     model = g.model;
     capCil = g.capCil;
 
     return *this;
+}
+
+void Golf::lockCar()
+{
+    std::cout << "... intra in service ...\n";
+    inService = true;
+}
+
+void Golf::unlockCar()
+{
+    std::cout << "... iese din service ...\n";
+    inService = false;
 }

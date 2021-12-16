@@ -1,3 +1,3 @@
-/mnt/c/users/popac/desktop/TemaIEP/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/users/popac/desktop/TemaIEP/build/CMakeFiles/edit_cache.dir
-/mnt/c/users/popac/desktop/TemaIEP/build/CMakeFiles/masini.dir
+/mnt/c/users/popac/desktop/temaiep/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/users/popac/desktop/temaiep/build/CMakeFiles/edit_cache.dir
+/mnt/c/users/popac/desktop/temaiep/build/CMakeFiles/masini.dir
